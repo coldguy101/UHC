@@ -9,7 +9,7 @@ public class Class_Startup extends JavaPlugin  {
 	
 	@Override
 	public void onEnable() {
-	   getLogger().info("UHC Has Been Enabled!");
+        //Same thing in the OnDisable.
 	   getLogger().info("Developed By: " + author);
 	    /*
 	     * Config & More Stuff here!
@@ -20,7 +20,7 @@ public class Class_Startup extends JavaPlugin  {
 	
 	@Override
 	public void onDisable() {
-           getLogger().info("UHC Has Been Disabled!");
+          //No Reason to put here a Disabling message since it'l already say that...
 	}
 	
 	  
