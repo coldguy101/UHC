@@ -15,7 +15,7 @@ public class Class_Startup extends JavaPlugin  {
 	     * Config & More Stuff here!
 	     */
 	     register();
-	     executecommands();
+	     executecmd();
 	}
 	
 	@Override
@@ -29,7 +29,7 @@ public class Class_Startup extends JavaPlugin  {
 	}
 	 
 	 
-	 private void executecommands() {
+	 private void executecmd() {
 	   /*
 	    Register Commands
 	    */
