@@ -1,5 +1,6 @@
 package net.UltraHardCore.Setup;
 
+import net.UltraHardCore.Events.Join;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Class_Startup extends JavaPlugin  {
@@ -15,7 +16,7 @@ public class Class_Startup extends JavaPlugin  {
 	     * Config & More Stuff here!
 	     */
 	     register();
-	     executecmd();
+	     execute();
 	}
 	
 	@Override
@@ -25,13 +26,16 @@ public class Class_Startup extends JavaPlugin  {
 	
 	  
 	private void register() {
-	  getServer().getPluginManager().registerEvents(new Events(), this);
+	  getServer().getPluginManager().registerEvents(new Join(), this);
 	}
 	 
 	 
-	 private void executecmd() {
-	   /*
-	    Register Commands
-	    */
-	 }
+	 private void execute() {
+            //Register set team Command
+            //Register Freeze All Command
+            //Register start Command
+            //Register Stop Command (Calls Freeze Event);
+            //Register Health Command *Basicly /Health (Player) 
+            //Response: Target's Health is 10 Hearts!  
+	 } 
 }
