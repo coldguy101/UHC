@@ -11,17 +11,18 @@ public class Class_Startup extends JavaPlugin  {
 	@Override
 	public void onEnable() {
         //Same thing in the OnDisable.
+           getLogger().info("UHC Has Been Enabled!");
 	   getLogger().info("Developed By: " + author);
 	    /*
 	     * Config & More Stuff here!
 	     */
 	     register();
-	     execute();
+	    
 	}
 	
 	@Override
 	public void onDisable() {
-          //No Reason to put here a Disabling message since it'l already say that...
+          getLogger().info("UHC Has Been Disabled");
 	}
 	
 	  
@@ -30,12 +31,5 @@ public class Class_Startup extends JavaPlugin  {
 	}
 	 
 	 
-	 private void execute() {
-            //Register set team Command
-            //Register Freeze All Command
-            //Register start Command
-            //Register Stop Command (Calls Freeze Event);
-            //Register Health Command *Basicly /Health (Player) 
-            //Response: Target's Health is 10 Hearts!  
-	 } 
+	 
 }
