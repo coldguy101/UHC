@@ -16,9 +16,11 @@ public class CommandManager implements CommandExecutor {
   
   private void loadCommands() {
     /*
-    Join
-    AddTeam
-    LeaveTeam
+    Join Command
+    AddTeam Command
+    LeaveTeam Command
+    Help Command Command
+    
     -Add more if needed
     */
   }
