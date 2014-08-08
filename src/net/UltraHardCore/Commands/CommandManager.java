@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.Command;
+//Add more imports, i did it all off mind :P
 
 public class CommandManager implements CommandExecutor {
   
