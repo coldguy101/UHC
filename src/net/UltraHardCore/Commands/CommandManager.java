@@ -31,7 +31,7 @@ public class CommandManager implements CommandExecutor {
     
     Player player = (Player) sender
     
-    if (cmd.getName().equalsIgnorCase("uhc) {
+    if (cmd.getName().equalsIgnorCase("uhc") {
       if (args.legnth == 0) {
         player.sendMessage(ChatColor.GRAY + "UHC Help: ");
         player.sendMessage(ChatColor.GREEN + "/uhc - Shows The help menu" )
