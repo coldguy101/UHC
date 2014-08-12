@@ -5,6 +5,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Class_Startup extends JavaPlugin  {
 	
+	
+	public static ArrayList<UUID> alive = new ArrayList<UUID>();
+	
+	
 	String author = "CrazymanJR, coldguy101 & darkzonex44";
  
 	
